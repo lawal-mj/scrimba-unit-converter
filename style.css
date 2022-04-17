@@ -17,7 +17,6 @@ body {
 .last-box {
   width: 346px;
   height: 215px;
-  background: url("../images/last-box.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -30,7 +29,6 @@ body {
 .length {
   width: 346px;
   height: 55px;
-  background: url("../images/length.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -67,7 +65,6 @@ body {
 .volume {
   width: 346px;
   height: 55px;
-  background: url("../images/volume.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -104,7 +101,6 @@ body {
 .mass {
   width: 346px;
   height: 51px;
-  background: url("../images/mass.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -141,7 +137,6 @@ body {
 .top-box {
   width: 550px;
   height: 260px;
-  background: url("../images/top-box.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
