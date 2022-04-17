@@ -1,16 +1,5 @@
-// let main = document.getElementById("my-form");
-// console.log(main.value)
 
-
-function getInputValue(){
-    // Selecting the input element and get its value 
-     var main = document.getElementById("main-value").value;
-     return main
-}
-
-let x = getInputValue()
-
-console.log(x)
+let main = document.getElementById("main-value")
 
 // mass volume length
 let lengthLine = document.getElementById("length")
@@ -19,10 +8,15 @@ let massLine = document.getElementById("mass")
 
 
 // formatiing them
-lengthLine.textContent = `${main.value} meters = ${main.value * 3.28} feet | ${main.value} feet = ${main.value * 0.30} meters`
-volumeLine.textContent = `${main.value} liters = ${main.value * 0.26} gallons | 20 gallons = ${main.value * 3.78} liters`
-massLine.textContent = `${main.value} kilos = ${main.value * 2.20} pounds | ${main.value} pounds = ${main.value * 0.45} kilos`
+function changeValue() {
+    lengthLine.textContent = `${main.value} meters = ${main.value * 3.28} feet | ${main.value} feet = ${main.value * 0.30} meters`
+    volumeLine.textContent = `${main.value} liters = ${main.value * 0.26} gallons | 20 gallons = ${main.value * 3.78} liters`
+    massLine.textContent = `${main.value} kilos = ${main.value * 2.20} pounds | ${main.value} pounds = ${main.value * 0.45} kilos`
 
+}
+
+
+//       VALUES USED
 // METERS FEET 
     // 1 meter = 3.28 feet.
     // 1 ft = 0.3048 meter
