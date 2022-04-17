@@ -3,7 +3,7 @@ h1 {
   font-size: 40px;
   /* margin-top: 20px; */
   margin-bottom: 0px;
-  background-color: palegoldenrod;
+  background-color: #05386B;
 
 }
 
@@ -21,14 +21,41 @@ h1 {
   text-align: center;  
 }
 
-h2{
-  margin-bottom: 30px;
-  font-size: 50px;
-  text-align: center;
-  color: cadetblue;
-}
+
 
 
 hr {
   margin: 0;
+}
+
+
+#my-form {
+  display: flex;  
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+
+#inputPassword6 {
+  padding: 20px;
+}
+
+
+#main-text {
+  font-size: 32px;
+}
+
+#inputPassword6 {
+  padding: 5px;
+  border: 3px solid  #05386B;
+}
+
+
+body {
+  background-color: #5CDB95;
+}
+
+.card {
+  background-color: #EDF5E1;
 }
