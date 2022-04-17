@@ -37,7 +37,7 @@ hr {
 }
 
 
-#inputPassword6 {
+#main-value {
   padding: 20px;
 }
 
@@ -46,7 +46,7 @@ hr {
   font-size: 32px;
 }
 
-#inputPassword6 {
+#main-value {
   padding: 5px;
   border: 3px solid  #05386B;
 }
@@ -58,4 +58,15 @@ body {
 
 .card {
   background-color: #EDF5E1;
+}
+
+#tobe-flex{display: flex;
+gap: 8px;
+}
+
+#main-button {
+  background-color: #EDF5E1;
+  border-radius: 10px;
+  border: 2px solid black;
+
 }
