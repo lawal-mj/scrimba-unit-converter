@@ -16,17 +16,4 @@ function changeValue() {
 }
 
 
-//       VALUES USED
-// METERS FEET 
-    // 1 meter = 3.28 feet.
-    // 1 ft = 0.3048 meter
-
-// LITERS GALON 
-    // 1 l = 0.264172 gal
-    // 1 gal = 3.785412 l
-
-// KILOGRAMS POUNDS
-    // 1 kg = 2.204623 lb
-    // 1 lb = 0.453592 kg
-
 
